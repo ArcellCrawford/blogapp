@@ -11,7 +11,7 @@ const app = express();
 let db;
 const port = 3000;
 app.use(express.json());
-const uri = "mongodb+srv://Demo:Alina@cluster0.5ej8t.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"; 
+const uri = "mongodb+srv://MEANSTACK:<Godissuper7>@cluster0.wmu6v.mongodb.net/MEANSTACK?retryWrites=true&w=majority"; 
 
 app.use(bodyParser.json());
 app.use(cors());
